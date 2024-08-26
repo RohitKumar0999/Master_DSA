@@ -4,7 +4,7 @@
 
 function checkRotatedAndSorted(arr, num)
 {
-    let ascInver = 0;  //1
+let ascInver = 0;  //1
 let descInver = 0;  //2
 //arr.length= 4
 
@@ -23,9 +23,8 @@ return false;
 
 if((ascInver==1 && (descInver==arr.length-2)) || (descInver==1 && ascInver ==arr.length-2)){
 return true
-
 }
-
+  
 if(descInver>1 || ascInver>1){
 
 return false
