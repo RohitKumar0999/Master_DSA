@@ -1,0 +1,4 @@
+// arr=
+const NumberOfOccurance = ()=>{
+
+}

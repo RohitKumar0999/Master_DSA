@@ -1,7 +1,8 @@
 // Print the Number from N to 1.
 // S.C: theta(N)
-// T.C: theta(N)
+// T.C: T(N) = theta(N)
 // Problem is not good to solve with recursion, Iterative way is better.
+// Here n>=1
 
 function PrintNto1(num){
     if(num==0)
